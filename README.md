@@ -7,6 +7,7 @@ normalized tweets, suitable for further NLP processing
 - Chainer 1.7 (chainer)
 - NLTK 3.0
 - context2vec
+- If not installed the NLTK Brown corpus will be downloaded when running the script
 
 ## To run:
 sh normalize_tweets.sh -f true
