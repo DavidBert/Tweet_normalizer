@@ -1,5 +1,5 @@
 # Tweet_normalizer
-The following program is normalization system which helps to change raw English tweets into (partially)
+The following program is a normalization system which helps to convert raw English tweets into (partially)
 normalized tweets, suitable for further NLP processing
 
 ## Requirements
@@ -13,11 +13,11 @@ normalized tweets, suitable for further NLP processing
 sh normalize_tweets.sh -f true
 arguments are:
 
-• -c: path to context2vec model (optional, hardcoded in normalize_tweets.sh)
+• -c: path for context2vec model 
 
-• -i: path to the input raw tweets (optional, hardcoded in normalize_tweets.sh)
+• -i: path for the input raw tweets 
 
-• -o: path to the output file (optional)
+• -o: path for the output file (optional)
 
 • -f: use  Damereau-Levenshtein fast computainon (optional, dafault=true)
 
